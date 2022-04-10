@@ -1,9 +1,9 @@
 [app]
   #app 名称
-  name = "彭棕的个人博客"
-  slogan = "没有什么比做无用功更让人痛苦的事情了！"
+  name = "探索者"
+  slogan = "Stay Hungry Stay Foolish"
   #app url
-  url  = "https://codwiki.cn"
+  url  = "https://wsqyouth.cn"
   port = 8181
   #单元测试调试信息
   debug = false
@@ -15,11 +15,11 @@
   limit = 10
 #资源文件配置
 [res]
-    root_dir = "/home/works/blog-docs"
+    root_dir = "/home/coopers/workspace/blog-docs"
     #文章目录
-    docs_dir = "/home/works/blog-docs/docs"
+    docs_dir = "/home/coopers/workspace/blog-docs/docs"
     #文档目录
-    books_dir = "/home/works/blog-docs/books"
+    books_dir = "/home/coopers/workspace/blog-docs/books"
 [image_host]
     #用户名
     username = "admin"
