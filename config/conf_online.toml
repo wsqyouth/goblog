@@ -8,18 +8,18 @@
   #单元测试调试信息
   debug = false
   #网站备案号
-  icp = "京ICP备15054073号-2"
+  icp = "深ICP备15054073号-2"
   #github Webhooks中配置的 Secret
   secret = "goblog"
   #每页最多显示文章数
   limit = 10
 #资源文件配置
 [res]
-    root_dir = "/home/coopers/workspace/blog-docs"
+    root_dir = "/home/coopers/workspace/blog_docs"
     #文章目录
-    docs_dir = "/home/coopers/workspace/blog-docs/docs"
+    docs_dir = "/home/coopers/workspace/blog_docs/docs"
     #文档目录
-    books_dir = "/home/coopers/workspace/blog-docs/books"
+    books_dir = "/home/coopers/workspace/blog_docs/books"
 [image_host]
     #用户名
     username = "admin"

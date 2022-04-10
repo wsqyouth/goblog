@@ -1,5 +1,8 @@
 ### 个人博客系统
 
+cd cmd
+go build -o goblog main.go
+./goblog & 
 基于Go语言的一个简易markdown博客系统 
 
 示例：[codwiki.cn](https://codwiki.cn) 
