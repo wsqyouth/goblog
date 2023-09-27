@@ -70,3 +70,32 @@ CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -o goblog main.go
 1. 文档存放在resources/docs，在该目录下创建分类文件夹即可
 2. 文档中`<br description/>` 文章描述 `<br description/>`标签内的内容将作为列表的描述
 3. 文档中非空的第一行文字如果是标题（# ## ###），则将作为文档标题，否则以文件名作为标题
+
+
+
+#### coopers博客搭建
+1. 运行该服务,待服务启动后检查该服务是否正常运行
+```
+/home/coopers/workspace/goblog/cmd
+nohup ./goblog > wsq.log &
+http://159.75.38.33:8181
+```
+2. nginx配置转发
+首先检查腾讯云域名是否请求该ip,之后配置端口转发
+```
+cd /usr/local/nginx/sbin
+./nginx
+conf配置:
+location / {
+    #proxy_pass http://www.baidu.com;
+    #proxy_pass http://www.wsqyouth.cn:8181;
+    proxy_pass http://127.0.0.1:8181;
+        root   html;
+        index  index.html index.htm;
+    }
+防火墙配置:
+https://console.cloud.tencent.com/lighthouse/instance/detail?searchParams=rid%3D1&rid=1&id=lhins-rc1v9izt&tab=firewall
+
+ping www.wsqyouth.cn 检查防火墙是否配置正常
+www.wsqyouth.cn
+```

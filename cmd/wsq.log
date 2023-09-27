@@ -1,0 +1,4 @@
+/home/coopers/workspace/goblog/config/conf_online.toml
+load config /home/coopers/workspace/goblog/config/conf_online.toml
+Now listening on: http://localhost:8181
+Application started. Press CTRL+C to shut down.
