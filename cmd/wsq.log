@@ -2,3 +2,4 @@
 load config /home/coopers/workspace/goblog/config/conf_online.toml
 Now listening on: http://localhost:8181
 Application started. Press CTRL+C to shut down.
+[ERRO] 2023/09/28 18:56 http: Server closed

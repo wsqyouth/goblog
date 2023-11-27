@@ -99,3 +99,8 @@ https://console.cloud.tencent.com/lighthouse/instance/detail?searchParams=rid%3D
 ping www.wsqyouth.cn 检查防火墙是否配置正常
 www.wsqyouth.cn
 ```
+
+
+### 为啥使用Iris而不是Gin
+Kataras/Iris 和 Gin 都是优秀的 Go Web 框架，它们都具有高性能和易用性。
+如果你需要更丰富的功能和模板引擎支持，可以选择 Iris；如果你更关注稳定性和社区支持，可以选择 Gin。
